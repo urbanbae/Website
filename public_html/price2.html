@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.columns {
+  float: left;
+  width: 50%;
+  padding: 30px;
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+</style>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+</head>
+<body>
+
+    <header >
+        <!--most top info -->
+  
+        <!-- End most top info -->
+
+        <nav class="navbar  navbar-expand-lg navbar-light top-navbar" data-toggle="sticky-onscroll">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="images/UrbanBae_stroked.png" alt="Smiley face" height="15%" width="19%"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav pull-right">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                                           
+                        <!--About and Contact  <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>-->
+                       
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+
+
+<h3 style="text-align:left;padding-left:30px">Breakfast:</h3>
+<ul class="list-inline" style="padding-left:45px">
+    <li class="list-inline-item" >&bull; Aloo Poha + Chutney</li>
+    <li class="list-inline-item" >&bull; Lemon Rice + Chutney</li>
+    <li class="list-inline-item" >&bull; Veg Pulao + Raita</li>
+    <li class="list-inline-item" >&bull; Puri(4 pcs) + Chana Masala</li>
+    <li class="list-inline-item" >&bull; Aloo Paratha + Curd/Chutney</li>
+    <li class="list-inline-item" >&bull; Dal Khichdi</li><br>
+    <li class="list-inline-item" >&bull; Sandwich + Ketchup</li>
+    <li class="list-inline-item" >&bull; Tomato Rice + Chutney</li>
+    <li class="list-inline-item" >&bull; Methi Paratha + Curd</li>
+</ul>
+<h3 style="text-align:left;padding-left:30px">Dinner:</h3>
+<ul class="list-inline" style="padding-left:45px">
+    <li class="list-inline-item" >&bull; Rice + Chapati(2pcs) + Capsicum</li>
+    <li class="list-inline-item" >&bull; Rice + Chapati(2pcs) + Potato Palak Curry</li>
+    <li class="list-inline-item" >&bull; Rice + Chapati(2pcs) + Dal Fry</li>
+    <li class="list-inline-item" >&bull; Chicken Biryani/Veg Biryani</li>
+    <li class="list-inline-item" >&bull; Rice + Chapati(2pcs) + Dal Palak</li>
+    <li class="list-inline-item" >&bull; Rice + Chapati(2pcs) + Bhindi Masala</li>
+    <li class="list-inline-item" >&bull; Rice + Chapati(2pcs) + Mixed Veg Curry </li>
+    <li class="list-inline-item" >&bull; Jeera Rice + Khurma</li>
+    <li class="list-inline-item" >&bull; Rice + Chapati(2pcs) + Aloo Matar</li>
+</ul>
+
+<h4 style="text-align:center">Our Offerings</h4>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header">Weekly Plan (7 day Trial)</li>
+    <li class="grey">Only Breakfast    300/-</li>
+    <li class="grey">Only Dinner <span>Veg:330/-</span> <span>Non Veg:380/-</span></li>
+    <li class="grey">Breakfast and Dinner <span>Veg:605/-</span> <span>Non Veg:655/-</li>
+      <li> <a class="typeform-share button" href="https://ordersamplekit.typeform.com/to/S2fZwd" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#267DDD;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" data-submit-close-delay="5" target="_blank">Sign Up </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script></li>
+    </ul>
+</div>
+
+
+<div class="columns">
+    <ul class="price">
+      <li class="header">Monthly Plan (28 day Trial)</li>
+      <li class="grey">Only Breakfast    1200/-</li>
+      <li class="grey">Only Dinner <span>Veg:1320/-</span> <span>Non Veg:1520/-</span></li>
+      <li class="grey">Breakfast and Dinner <span>Veg:2520/-</span> <span>Non Veg:2720/-</li>
+     <li> <a class="typeform-share button" href="https://ordersamplekit.typeform.com/to/S2fZwd" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#267DDD;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" data-submit-close-delay="5" target="_blank">Sign Up </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script></li>
+    </ul>
+  </div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
